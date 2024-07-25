@@ -1,0 +1,39 @@
+.apartments-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.card {
+    display: flex;
+    gap: 1rem;
+    width: 20rem;
+    height: 10rem;
+    background-color: rgb(135, 189, 189);
+    padding: 1rem;
+    position: relative;
+    
+    img{
+        height: 6rem;
+        width: 6rem;
+        max-width: 16rem;
+        object-fit: cover;
+    }
+
+    button{
+        background-color: aliceblue;
+        border: none;
+        width: 10rem;
+        position: absolute;
+        bottom: 1rem;
+    }
+}
+
+
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    font-size: 10px;
+}
