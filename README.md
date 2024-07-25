@@ -53,3 +53,5 @@ function App() {
   );
 }
 ```
+
+For more information and advanced topics check today's lesson in the portal.
